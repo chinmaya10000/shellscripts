@@ -16,3 +16,10 @@ echo
 echo "Contents of ${FILE}"
 cat ${FILE}
 
+# Redirect STDOUT to a file, appending to a file.
+echo "${RANDOM} ${RANDOM}" >> ${FILE}
+echo "${RANDOM} ${RANDOM}" >> ${FILE}
+echo
+echo "Contents of ${FILE}"
+cat ${FILE}
+

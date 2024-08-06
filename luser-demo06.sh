@@ -85,3 +85,5 @@ rm ${FILE} ${ERR_FILE} &> /dev/null
 # head -n1 /etc/passwd /etc/hosts /fakefile > /dev/null
 # head -n1 /etc/passwd /etc/hosts /fakefile 2> /dev/null
 # head -n1 /etc/passwd /etc/hosts /fakefile &> /dev/null
+
+# >&2
